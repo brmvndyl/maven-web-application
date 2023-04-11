@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.18-SNAPSHOT</version>
+	<version>0.0.19-SNAPSHOT</version>
 
 	
 	<name>maven-web-application</name>
@@ -22,8 +22,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://15.207.248.0:9000/</sonar.host.url>
-		<sonar.login>61774124af2dad2dd6c6bc681d2d259c1e35af7c</sonar.login>
+		<sonar.host.url>http://3.110.184.220:9000/</sonar.host.url>
+		<sonar.login>23bea749ee01dcd46cfb200a9938cc2ac0af3551</sonar.login>
 		<!-- <sonar.login>admin</sonar.login>
 		<sonar.password>password</sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -99,14 +99,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>nexusupdate</name>
-	      <url>http://3.110.218.74:8081/repository/nexusupdate-release/</url>
+	      <name>nexusfinal</name>
+	      <url>http://3.111.169.0:8081/repository/nexusfinal-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>nexusupdate</name>
-	      <url>http://3.110.218.74:8081/repository/nexusupdate-snapshot/</url>
+	      <name>nexusfinal</name>
+	      <url>http://3.111.169.0:8081/repository/nexusfinal-snaphot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
