@@ -99,13 +99,13 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus3</id>
+	      <id>nexus</id>
 	      <name>nexustest</name>
 	      <url>http://3.111.30.160:8081/repository/nexus3-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus3</id>
+	      <id>nexus</id>
 	      <name>nexustest</name>
 	      <url>http://3.111.30.160:8081/repository/nexus3-Snapshot/</url>
 	    </snapshotRepository>
