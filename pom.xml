@@ -23,8 +23,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.233.137.253:9000/</sonar.host.url>
-		<sonar.login>09ea2a29c6d62e90c0bae7bbd7d8bfb1e2033089</sonar.login>
+		<sonar.host.url>http://13.232.178.228:9000/</sonar.host.url>
+		<sonar.login>a92089736086159b8188df41a90a964e31155520</sonar.login>
 		<!-- <sonar.login>admin</sonar.login>
 		<sonar.password>password</sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -99,15 +99,15 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus</id>
+	      <id>nexus3</id>
 	      <name>nexustest</name>
-	      <url>http://35.154.88.155:8081/repository/nexustest-release/</url>
+	      <url>http://3.111.30.160:8081/repository/nexus3-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
+	      <id>nexus3</id>
 	      <name>nexustest</name>
-	      <url>http://35.154.88.155:8081/repository/nexustest-snapshot/</url>
+	      <url>http://3.111.30.160:8081/repository/nexus3-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
